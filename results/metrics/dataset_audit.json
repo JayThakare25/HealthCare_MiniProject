@@ -1,0 +1,70 @@
+{
+    "dataset_name": "OASIS-1 Cross-Sectional MRI Dataset",
+    "official_source": "https://www.oasis-brains.org/#oasis1",
+    "citation": "Marcus et al., J. Cognitive Neuroscience, 2007",
+    "total_records": 436,
+    "unique_subjects": 436,
+    "unassessed_young_controls_count": 201,
+    "unassessed_young_age_range": [
+        18.0,
+        58.0
+    ],
+    "clinically_evaluated_cohort_count": 235,
+    "evaluated_age_range": [
+        33.0,
+        96.0
+    ],
+    "cdr_distribution_full": {
+        "nan": 201,
+        "0.0": 135,
+        "0.5": 70,
+        "1.0": 28,
+        "2.0": 2
+    },
+    "cdr_distribution_evaluated": {
+        "0.0": 135,
+        "0.5": 70,
+        "1.0": 28,
+        "2.0": 2
+    },
+    "binary_target_definition": {
+        "negative_class_0": "Control / Nondemented (CDR = 0.0)",
+        "positive_class_1": "Dementia-Indicative (CDR > 0.0: 0.5 Very Mild, 1.0 Mild, 2.0 Moderate)"
+    },
+    "binary_class_counts": {
+        "control_count": 135,
+        "dementia_indicative_count": 100,
+        "control_ratio": 0.5745,
+        "dementia_ratio": 0.4255
+    },
+    "gender_breakdown_evaluated": {
+        "F": 156,
+        "M": 79
+    },
+    "missing_values_evaluated": {
+        "ID": 0,
+        "M/F": 0,
+        "Hand": 0,
+        "Age": 0,
+        "Educ": 0,
+        "SES": 19,
+        "MMSE": 0,
+        "CDR": 0,
+        "eTIV": 0,
+        "nWBV": 0,
+        "ASF": 0,
+        "Delay": 235
+    },
+    "morphometric_variables": {
+        "eTIV": "Estimated Total Intracranial Volume (cm3 / mm3)",
+        "nWBV": "Normalized Whole Brain Volume (proportion of total intracranial volume)",
+        "ASF": "Atlas Scaling Factor (scaling factor required to transform brain to Talairach atlas space)"
+    },
+    "clinical_variables": {
+        "Age": "Subject age in years",
+        "M/F": "Gender (M: Male, F: Female)",
+        "Educ": "Education level (1 to 5)",
+        "SES": "Socioeconomic status (1 to 5, Hollingshead Index)",
+        "MMSE": "Mini-Mental State Examination score (0 to 30)"
+    }
+}

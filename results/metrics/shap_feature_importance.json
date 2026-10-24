@@ -1,0 +1,42 @@
+[
+    {
+        "feature_raw": "MMSE",
+        "feature_name": "MMSE Cognitive Score (0-30)",
+        "mean_abs_shap": 0.17010681219303195
+    },
+    {
+        "feature_raw": "nWBV",
+        "feature_name": "Normalized Whole Brain Vol (nWBV)",
+        "mean_abs_shap": 0.0883669598630073
+    },
+    {
+        "feature_raw": "Age",
+        "feature_name": "Age (Years)",
+        "mean_abs_shap": 0.06340964239573968
+    },
+    {
+        "feature_raw": "Educ",
+        "feature_name": "Education Level (1-5)",
+        "mean_abs_shap": 0.02301438793082358
+    },
+    {
+        "feature_raw": "ASF",
+        "feature_name": "Atlas Scaling Factor (ASF)",
+        "mean_abs_shap": 0.01752461286868352
+    },
+    {
+        "feature_raw": "M/F_M",
+        "feature_name": "Gender (Male = 1, Female = 0)",
+        "mean_abs_shap": 0.016226879646019602
+    },
+    {
+        "feature_raw": "eTIV",
+        "feature_name": "Estimated Total Intracranial Vol (eTIV)",
+        "mean_abs_shap": 0.014963365876078322
+    },
+    {
+        "feature_raw": "SES",
+        "feature_name": "Socioeconomic Status (1-5)",
+        "mean_abs_shap": 0.012023079344715453
+    }
+]

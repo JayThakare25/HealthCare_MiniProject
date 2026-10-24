@@ -1,0 +1,9 @@
+feature_raw,feature_name,mean_abs_shap
+MMSE,MMSE Cognitive Score (0-30),0.17010681219303195
+nWBV,Normalized Whole Brain Vol (nWBV),0.0883669598630073
+Age,Age (Years),0.06340964239573968
+Educ,Education Level (1-5),0.02301438793082358
+ASF,Atlas Scaling Factor (ASF),0.01752461286868352
+M/F_M,"Gender (Male = 1, Female = 0)",0.016226879646019602
+eTIV,Estimated Total Intracranial Vol (eTIV),0.014963365876078322
+SES,Socioeconomic Status (1-5),0.012023079344715453

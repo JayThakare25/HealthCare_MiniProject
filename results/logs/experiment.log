@@ -1,0 +1,101 @@
+[2026-10-24 18:47:40] [INFO] Loaded raw dataset with 436 records and 12 columns.
+[2026-10-24 18:47:40] [INFO] Filtered evaluated cohort: 235 subjects (135 Controls, 100 Dementia-Indicative)
+[2026-10-24 18:47:40] [INFO] Data split completed: Train=188 subjects, Test=47 subjects. Train target dist: {0: np.int64(108), 1: np.int64(80)}, Test target dist: {0: np.int64(27), 1: np.int64(20)}
+[2026-10-24 18:47:40] [INFO] Running 5-fold stratified cross-validation on training partition...
+[2026-10-24 18:47:44] [INFO] Evaluating models on held-out test partition...
+[2026-10-24 18:47:45] [INFO] Running Modality Comparison (Clinical-only vs Structural MRI-only vs Combined)...
+[2026-10-24 18:47:45] [INFO] Training and evaluation successfully completed!
+[2026-10-24 18:48:45] [INFO] Saved dataset distribution plot to results/figures\dataset_distribution.png
+[2026-10-24 18:48:45] [INFO] Saved ROC curves plot to results/figures\roc_curves.png
+[2026-10-24 18:48:48] [INFO] Saved confusion matrices to results/figures\confusion_matrices.png
+[2026-10-24 18:48:49] [INFO] Saved comparative metrics bar chart to results/figures\comparative_metrics_bar.png
+[2026-10-24 18:48:50] [INFO] Saved modality ablation plot to results/figures\modality_comparison_bar.png
+[2026-10-24 18:48:50] [INFO] Loaded raw dataset with 436 records and 12 columns.
+[2026-10-24 18:48:50] [INFO] Filtered evaluated cohort: 235 subjects (135 Controls, 100 Dementia-Indicative)
+[2026-10-24 18:48:52] [INFO] Saved correlation heatmap to results/figures\correlation_heatmap.png
+[2026-10-24 18:49:29] [INFO] Initializing SHAP TreeExplainer for Random Forest...
+[2026-10-24 18:49:29] [INFO] SHAP values computed: shape=(47, 8)
+[2026-10-24 18:49:30] [INFO] Saved SHAP bar plot to results/figures\shap_global_bar.png
+[2026-10-24 18:49:31] [INFO] Saved SHAP summary beeswarm plot to results/figures\shap_summary_beeswarm.png
+[2026-10-24 18:49:32] [INFO] Saved local demented explanation to results/figures\shap_waterfall_demented.png
+[2026-10-24 18:49:32] [INFO] Saved local control explanation to results/figures\shap_waterfall_control.png
+[2026-10-24 18:49:33] [INFO] Saved nWBV dependence plot to results/figures\shap_dependence_nwbv.png
+[2026-10-24 18:49:33] [INFO] Saved MMSE dependence plot to results/figures\shap_dependence_mmse.png
+[2026-10-24 18:50:48] [INFO] Loaded raw dataset with 436 records and 12 columns.
+[2026-10-24 18:50:49] [INFO] Loaded raw dataset with 436 records and 12 columns.
+[2026-10-24 18:50:49] [INFO] Loaded raw dataset with 436 records and 12 columns.
+[2026-10-24 18:50:49] [INFO] Filtered evaluated cohort: 235 subjects (135 Controls, 100 Dementia-Indicative)
+[2026-10-24 18:50:49] [INFO] Loaded raw dataset with 436 records and 12 columns.
+[2026-10-24 18:50:49] [INFO] Filtered evaluated cohort: 235 subjects (135 Controls, 100 Dementia-Indicative)
+[2026-10-24 18:50:49] [INFO] Data split completed: Train=188 subjects, Test=47 subjects. Train target dist: {0: np.int64(108), 1: np.int64(80)}, Test target dist: {0: np.int64(27), 1: np.int64(20)}
+[2026-10-24 18:50:49] [INFO] Loaded raw dataset with 436 records and 12 columns.
+[2026-10-24 18:50:49] [INFO] Filtered evaluated cohort: 235 subjects (135 Controls, 100 Dementia-Indicative)
+[2026-10-24 18:50:49] [INFO] Data split completed: Train=188 subjects, Test=47 subjects. Train target dist: {0: np.int64(108), 1: np.int64(80)}, Test target dist: {0: np.int64(27), 1: np.int64(20)}
+[2026-10-24 19:04:43] [INFO] Loaded raw dataset with 436 records and 12 columns.
+[2026-10-24 19:04:43] [INFO] Loaded raw dataset with 436 records and 12 columns.
+[2026-10-24 19:04:43] [INFO] Loaded raw dataset with 436 records and 12 columns.
+[2026-10-24 19:04:43] [INFO] Filtered evaluated cohort: 235 subjects (135 Controls, 100 Dementia-Indicative)
+[2026-10-24 19:04:43] [INFO] Loaded raw dataset with 436 records and 12 columns.
+[2026-10-24 19:04:43] [INFO] Filtered evaluated cohort: 235 subjects (135 Controls, 100 Dementia-Indicative)
+[2026-10-24 19:04:43] [INFO] Data split completed: Train=188 subjects, Test=47 subjects. Train target dist: {0: np.int64(108), 1: np.int64(80)}, Test target dist: {0: np.int64(27), 1: np.int64(20)}
+[2026-10-24 19:04:43] [INFO] Loaded raw dataset with 436 records and 12 columns.
+[2026-10-24 19:04:43] [INFO] Filtered evaluated cohort: 235 subjects (135 Controls, 100 Dementia-Indicative)
+[2026-10-24 19:04:43] [INFO] Data split completed: Train=188 subjects, Test=47 subjects. Train target dist: {0: np.int64(108), 1: np.int64(80)}, Test target dist: {0: np.int64(27), 1: np.int64(20)}
+[2026-10-24 19:04:55] [INFO] Loaded raw dataset with 436 records and 12 columns.
+[2026-10-24 19:05:16] [INFO] Loaded raw dataset with 436 records and 12 columns.
+[2026-10-24 19:05:16] [INFO] Filtered evaluated cohort: 235 subjects (135 Controls, 100 Dementia-Indicative)
+[2026-10-24 19:05:16] [INFO] Data split completed: Train=188 subjects, Test=47 subjects. Train target dist: {0: np.int64(108), 1: np.int64(80)}, Test target dist: {0: np.int64(27), 1: np.int64(20)}
+[2026-10-24 19:05:16] [INFO] Running 5-fold stratified cross-validation on training partition...
+[2026-10-24 19:05:18] [INFO] Evaluating models on held-out test partition...
+[2026-10-24 19:05:19] [INFO] Running Modality Comparison (Clinical-only vs Structural MRI-only vs Combined)...
+[2026-10-24 19:05:19] [INFO] Training and evaluation successfully completed!
+[2026-10-24 19:05:40] [INFO] Saved dataset distribution plot to results/figures\dataset_distribution.png
+[2026-10-24 19:05:41] [INFO] Saved ROC curves plot to results/figures\roc_curves.png
+[2026-10-24 19:05:43] [INFO] Saved confusion matrices to results/figures\confusion_matrices.png
+[2026-10-24 19:05:43] [INFO] Saved comparative metrics bar chart to results/figures\comparative_metrics_bar.png
+[2026-10-24 19:05:44] [INFO] Saved modality ablation plot to results/figures\modality_comparison_bar.png
+[2026-10-24 19:05:44] [INFO] Loaded raw dataset with 436 records and 12 columns.
+[2026-10-24 19:05:44] [INFO] Filtered evaluated cohort: 235 subjects (135 Controls, 100 Dementia-Indicative)
+[2026-10-24 19:05:45] [INFO] Saved correlation heatmap to results/figures\correlation_heatmap.png
+[2026-10-24 19:06:04] [INFO] Initializing SHAP TreeExplainer for Random Forest...
+[2026-10-24 19:06:04] [INFO] SHAP values computed: shape=(47, 8)
+[2026-10-24 19:06:04] [INFO] Saved SHAP bar plot to results/figures\shap_global_bar.png
+[2026-10-24 19:06:05] [INFO] Saved SHAP summary beeswarm plot to results/figures\shap_summary_beeswarm.png
+[2026-10-24 19:06:06] [INFO] Saved local demented explanation to results/figures\shap_waterfall_demented.png
+[2026-10-24 19:06:06] [INFO] Saved local control explanation to results/figures\shap_waterfall_control.png
+[2026-10-24 19:06:07] [INFO] Saved nWBV dependence plot to results/figures\shap_dependence_nwbv.png
+[2026-10-24 19:06:07] [INFO] Saved MMSE dependence plot to results/figures\shap_dependence_mmse.png
+[2026-10-24 19:09:48] [INFO] Loaded raw dataset with 436 records and 12 columns.
+[2026-10-24 19:09:48] [INFO] Loaded raw dataset with 436 records and 12 columns.
+[2026-10-24 19:09:48] [INFO] Loaded raw dataset with 436 records and 12 columns.
+[2026-10-24 19:09:48] [INFO] Filtered evaluated cohort: 235 subjects (135 Controls, 100 Dementia-Indicative)
+[2026-10-24 19:09:48] [INFO] Loaded raw dataset with 436 records and 12 columns.
+[2026-10-24 19:09:48] [INFO] Filtered evaluated cohort: 235 subjects (135 Controls, 100 Dementia-Indicative)
+[2026-10-24 19:09:48] [INFO] Data split completed: Train=188 subjects, Test=47 subjects. Train target dist: {0: np.int64(108), 1: np.int64(80)}, Test target dist: {0: np.int64(27), 1: np.int64(20)}
+[2026-10-24 19:09:48] [INFO] Loaded raw dataset with 436 records and 12 columns.
+[2026-10-24 19:09:48] [INFO] Filtered evaluated cohort: 235 subjects (135 Controls, 100 Dementia-Indicative)
+[2026-10-24 19:09:48] [INFO] Data split completed: Train=188 subjects, Test=47 subjects. Train target dist: {0: np.int64(108), 1: np.int64(80)}, Test target dist: {0: np.int64(27), 1: np.int64(20)}
+[2026-10-24 19:09:56] [INFO] Loaded raw dataset with 436 records and 12 columns.
+[2026-10-24 19:10:04] [INFO] Loaded raw dataset with 436 records and 12 columns.
+[2026-10-24 19:10:04] [INFO] Filtered evaluated cohort: 235 subjects (135 Controls, 100 Dementia-Indicative)
+[2026-10-24 19:10:05] [INFO] Data split completed: Train=188 subjects, Test=47 subjects. Train target dist: {0: np.int64(108), 1: np.int64(80)}, Test target dist: {0: np.int64(27), 1: np.int64(20)}
+[2026-10-24 19:10:05] [INFO] Running 5-fold stratified cross-validation on training partition...
+[2026-10-24 19:10:08] [INFO] Evaluating models on held-out test partition...
+[2026-10-24 19:10:09] [INFO] Running Modality Comparison (Clinical-only vs Structural MRI-only vs Combined)...
+[2026-10-24 19:10:10] [INFO] Training and evaluation successfully completed!
+[2026-10-24 19:10:23] [INFO] Saved dataset distribution plot to results/figures\dataset_distribution.png
+[2026-10-24 19:10:24] [INFO] Saved ROC curves plot to results/figures\roc_curves.png
+[2026-10-24 19:10:28] [INFO] Saved confusion matrices to results/figures\confusion_matrices.png
+[2026-10-24 19:10:29] [INFO] Saved comparative metrics bar chart to results/figures\comparative_metrics_bar.png
+[2026-10-24 19:10:31] [INFO] Saved modality ablation plot to results/figures\modality_comparison_bar.png
+[2026-10-24 19:10:31] [INFO] Loaded raw dataset with 436 records and 12 columns.
+[2026-10-24 19:10:31] [INFO] Filtered evaluated cohort: 235 subjects (135 Controls, 100 Dementia-Indicative)
+[2026-10-24 19:10:33] [INFO] Saved correlation heatmap to results/figures\correlation_heatmap.png
+[2026-10-24 19:10:44] [INFO] Initializing SHAP TreeExplainer for Random Forest...
+[2026-10-24 19:10:44] [INFO] SHAP values computed: shape=(47, 8)
+[2026-10-24 19:10:45] [INFO] Saved SHAP bar plot to results/figures\shap_global_bar.png
+[2026-10-24 19:10:46] [INFO] Saved SHAP summary beeswarm plot to results/figures\shap_summary_beeswarm.png
+[2026-10-24 19:10:47] [INFO] Saved local demented explanation to results/figures\shap_waterfall_demented.png
+[2026-10-24 19:10:48] [INFO] Saved local control explanation to results/figures\shap_waterfall_control.png
+[2026-10-24 19:10:48] [INFO] Saved nWBV dependence plot to results/figures\shap_dependence_nwbv.png
+[2026-10-24 19:10:49] [INFO] Saved MMSE dependence plot to results/figures\shap_dependence_mmse.png

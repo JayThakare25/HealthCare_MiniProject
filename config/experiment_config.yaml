@@ -1,0 +1,61 @@
+# Experiment Configuration for Alzheimer's Disease Classification using OASIS-1
+project:
+  title: "Explainable Machine Learning for Alzheimer’s Disease Classification Using Structural MRI and Clinical Features"
+  institution: "Symbiosis Institute of Technology, Nagpur"
+  course: "Business Intelligence / Machine Learning Mini-Project (CA3)"
+  authors:
+    - name: "Jay Thakare"
+      prn: "23070521233"
+    - name: "Devansh Gawali"
+      prn: "23070521237"
+  date: "2026-10-24"
+
+data:
+  raw_csv_path: "data/oasis_cross-sectional.csv"
+  processed_csv_path: "data/oasis_processed.csv"
+  target_col: "target"
+  original_target_col: "CDR"
+  excluded_cols: ["ID", "Hand", "Delay", "CDR"]
+  categorical_cols: ["M/F"]
+  numerical_cols: ["Age", "Educ", "SES", "MMSE", "eTIV", "nWBV", "ASF"]
+  clinical_feature_cols: ["Age", "M/F", "Educ", "SES", "MMSE"]
+  mri_feature_cols: ["eTIV", "nWBV", "ASF"]
+  combined_feature_cols: ["Age", "M/F", "Educ", "SES", "MMSE", "eTIV", "nWBV", "ASF"]
+
+split:
+  test_size: 0.20
+  random_state: 42
+  stratify: true
+  cv_folds: 5
+
+models:
+  dummy:
+    strategy: "most_frequent"
+  logistic_regression:
+    C: 1.0
+    max_iter: 1000
+    solver: "liblinear"
+    random_state: 42
+  random_forest:
+    n_estimators: 100
+    max_depth: 5
+    min_samples_split: 4
+    random_state: 42
+  support_vector_machine:
+    C: 1.0
+    kernel: "rbf"
+    probability: true
+    random_state: 42
+  gradient_boosting:
+    n_estimators: 100
+    learning_rate: 0.1
+    max_depth: 3
+    random_state: 42
+  soft_voting_ensemble:
+    voting: "soft"
+    weights: [1, 2, 2]
+
+outputs:
+  metrics_dir: "results/metrics"
+  figures_dir: "results/figures"
+  logs_dir: "results/logs"
