@@ -13,7 +13,7 @@
 
 - **Academic Institution:** Symbiosis Institute of Technology (SIT), Nagpur
 - **Affiliation:** Symbiosis International (Deemed University), Pune, India
-- **Course:** Business Intelligence / Machine Learning Mini-Project (CA3)
+- **Course:** HealthCare Analysis / Machine Learning Mini-Project (CA3)
 - **Submission Deadline:** 24 October 2026, 8:00 PM IST
 - **Project Team:**
   - **Jay Thakare** — PRN: `23070521233`
