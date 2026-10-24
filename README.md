@@ -2,7 +2,7 @@
 
 [![Python 3.11](https://img.shields.io/badge/Python-3.11-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![GitHub](https://img.shields.io/badge/GitHub-Health--Care--mini--project-181717.svg?logo=github)](https://github.com/devansh16125/Health-Care-mini-project)
+[![GitHub](https://img.shields.io/badge/GitHub-HealthCare__MiniProject-181717.svg?logo=github)](https://github.com/JayThakare25/HealthCare_MiniProject)
 [![IEEE Paper](https://img.shields.io/badge/Paper-IEEE%20Format-green.svg)](paper/report.pdf)
 [![Tests Passing](https://img.shields.io/badge/pytest-7%20passed-brightgreen.svg)](tests/)
 [![Reproducibility](https://img.shields.io/badge/Reproducibility-100%25-success.svg)](docs/reproducibility.md)
@@ -194,7 +194,7 @@ python -m pytest -q
 ## 8. Research Paper & Presentation Artifacts
 
 - **GitHub Source-Code Repository:**
-  - Published Repository: [`https://github.com/devansh16125/Health-Care-mini-project`](https://github.com/devansh16125/Health-Care-mini-project)
+  - Published Repository: [`https://github.com/JayThakare25/HealthCare_MiniProject`](https://github.com/JayThakare25/HealthCare_MiniProject)
 - **IEEE Research Paper:**
   - Word Document: [`paper/report.docx`](paper/report.docx)
   - PDF Document (Exact 6 Pages): [`paper/report.pdf`](paper/report.pdf)
